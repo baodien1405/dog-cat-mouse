@@ -1,4 +1,8 @@
 var Cow = require('./Cow');
+var Cat = require('./Cat');
 
 var cow = new Cow('Spike');
-cow.sayHi();
+var cat = new Cat();
+
+cow.eat(cat);
+console.log(cow);
